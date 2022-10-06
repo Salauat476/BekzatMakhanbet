@@ -1,0 +1,38 @@
+body{
+    background: white;
+
+    font-size: 16px;
+    
+}
+
+.info p {
+color: #e41313;
+font-style: italic;
+/* text-decoration: underline; */
+/* text-transform: uppercase; */
+/* word-spacing: 20px; */
+}
+
+.conteiner {
+    max-width: 750px;
+    margin: auto;
+
+}
+
+.bg-yellow{
+    background:#fff9dc ;
+}
+
+.bg-green{
+    background: #e5ffe7 ;
+}
+
+.bg-red{
+    background: #ffe5e5;
+}
+
+.card{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}

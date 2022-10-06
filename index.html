@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Salauat SM</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+<div class="conteiner">
+ <div class="info">
+ <h1>
+    Форма заявки на работу в зоопарке
+ </h1>   
+ <p>Пожалуйста, заполните форму!!!</p>
+ </div >
+
+
+   
+    <div class="card bg-yellow">
+    <h2 >Контактная информация</h2>
+  <form action="/connection.js">
+    <label  for="name"> Имя:</label>
+    <input type="text" id="name"
+    placeholder="Введите ваше имя">   
+    <br>
+    <br>
+    <label for="number">Телефон:</label>
+    <input type="number" id="number"
+    placeholder="Введите номер тел:">
+    <br><br>
+    <label for="Email">Email:</label>
+    <input type="email" id="Email"
+    placeholder="Введите почту">
+    <br><br>
+    </div>
+       
+    
+   <div class="card bg-green">
+    <h2>Персональная информация</h2>
+    <label for="age">Возраст:</label>
+    <input type="age" id="age"
+    placeholder="Введите ваше возраст">
+    <br><br> 
+    <label for="search">Пол:</label>
+    <input type="search" id="search"
+    placeholder="Пол">
+    <br><br>
+    <label for="text" >Перечислите личные качества:</label>
+    <textarea id="text" rows="3" cols="40"></textarea>
+   </div>
+   <div class="card bg-red">
+    <h2>Выберите ваших любимых животных</h2>
+    
+    <input  type="radio" id="radioButton" >
+    <label for="radioButton" >Зебра</label>
+    <input type="radio" id="radioButton">
+    <label  for="radioButton" >Краб</label>
+    <input type="radio" id="radioButton">
+    <label  for="radioButton" >Анаконда</label>
+    <input type="radio" id="radioButton">
+    <label  for="radioButton" >Человек</label>
+
+    <br>
+    <br>
+    <input type="radio" id="radioButton">
+    <label  for="radioButton" >Кошка</label>
+    <input type="radio" id="radioButton">
+    <label  for="radioButton" >Антилоп</label>
+    <input type="radio" id="radioButton">
+    <label  for="radioButton" >Голубь</label>
+    <input type="radio" id="radioButton">
+    <label  for="radioButton" >Слон</label>
+    </div>
+    <br><br>  
+    <input type="submit"  value="Отправить информацию" />
+  </form>
+</div>    
+</body>
+</html>
